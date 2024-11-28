@@ -2,9 +2,11 @@ int viewMode = 0; // 0: bird's eye view, 1: first-person view
 float angle = 0;  // 박스의 회전용 변수
 
 // 물체 데이터
-PVector spherePos, boxPos; // PVector: 벡터의 구성요소를 저장하는 class. 이 경우 위치에 해당
-float sphereSpeed = 2, boxSpeed = 1.5;
+// 구
+PVector spherePos; // PVector: 벡터의 구성요소를 저장하는 class. 이 경우 위치에 해당
+float sphereSpeed = 2;
 
+// 박스
 int boxCount = 5; // 박스 개수
 PVector[] boxPositions = new PVector[boxCount]; // 박스 위치 배열
 PVector[] boxSpeeds = new PVector[boxCount];   // 박스 속도 배열
