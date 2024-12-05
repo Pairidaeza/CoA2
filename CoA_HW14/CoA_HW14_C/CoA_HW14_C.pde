@@ -1,3 +1,5 @@
+// 클라이언트
+
 import processing.net.*;
 
 Client client;
