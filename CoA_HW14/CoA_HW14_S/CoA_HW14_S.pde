@@ -1,3 +1,5 @@
+// 서버
+
 import processing.net.*;
 
 Server server;
